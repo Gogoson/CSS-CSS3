@@ -1,6 +1,6 @@
-1¡¢opacity                    css3ÊôÐÔ£¬¼æÈÝIE9+
-   filter:Alpha(opacity=50)   ¼æÈÝIE8¼°ÒÔÏÂä¯ÀÀÆ÷£¬µÈ¼ÛÓÚ opacity:0.5 
+1ã€opacity                    css3å±žæ€§ï¼Œå…¼å®¹IE9+
+   filter:Alpha(opacity=50)   å…¼å®¹IE8åŠä»¥ä¸‹æµè§ˆå™¨ï¼Œç­‰ä»·äºŽ opacity:0.5 
 
-2¡¢alphaÍ¨µÀºÍopacityÊôÐÔµÄÇø±ð
-   alphaÍ¨µÀ¶ÔÔªËØÉè¶¨Í¸Ã÷¶ÈÊ±£¬¿ÉÒÔµ¥¶ÀÕë¶ÔÔªËØ±³¾°É«ºÍÎÄ×ÖÑÕÉ«µÈÀ´Ö¸¶¨Í¸Ã÷¶È
-   opacityÊôÐÔÖ»ÄÜÖ¸¶¨Õû¸öÔªËØµÄÍ¸Ã÷¶È
+2ã€alphaé€šé“å’Œopacityå±žæ€§çš„åŒºåˆ«
+   alphaé€šé“å¯¹å…ƒç´ è®¾å®šé€æ˜Žåº¦æ—¶ï¼Œå¯ä»¥å•ç‹¬é’ˆå¯¹å…ƒç´ èƒŒæ™¯è‰²å’Œæ–‡å­—é¢œè‰²ç­‰æ¥æŒ‡å®šé€æ˜Žåº¦
+   opacityå±žæ€§åªèƒ½æŒ‡å®šæ•´ä¸ªå…ƒç´ çš„é€æ˜Žåº¦
