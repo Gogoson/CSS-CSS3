@@ -1,0 +1,6 @@
+1、opacity                    css3属性，兼容IE9+
+   filter:Alpha(opacity=50)   兼容IE8及以下浏览器，等价于 opacity:0.5 
+
+2、alpha通道和opacity属性的区别
+   alpha通道对元素设定透明度时，可以单独针对元素背景色和文字颜色等来指定透明度
+   opacity属性只能指定整个元素的透明度
