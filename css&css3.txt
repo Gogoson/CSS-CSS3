@@ -1,6 +1,18 @@
-1、opacity                    css3属性，兼容IE9+
+1、opacity                    css3，兼容IE9+
    filter:Alpha(opacity=50)   兼容IE8及以下浏览器，等价于 opacity:0.5 
 
 2、alpha通道和opacity属性的区别
    alpha通道对元素设定透明度时，可以单独针对元素背景色和文字颜色等来指定透明度,只要设置了颜色的地方都可以使用;
-   opacity属性只能指定整个元素的透明度。
+   opacity属性只能指定整个元素的透明度.
+
+3、outline与outline-offset
+   outline   css2
+   轮廓线不会占据空间，也不一定是矩形.
+   outline是简写属性，分开写则是以下三个属性，顺序可以调换：
+      outline-color    默认黑色
+      outline-style    若省略，浏览器不绘制
+      outline-width    属性值可为：npx thin medium thick 默认是medium 
+
+   outline-offset    css3   非IE的主流浏览器
+   偏移border的距离，当前IE(当前最高是IE11)都不支持;
+   属性值可为正负值，负值表示轮郭线向内偏移，绘制在边框内部.
