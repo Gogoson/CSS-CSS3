@@ -16,6 +16,10 @@
    outline-offset    css3   非IE的主流浏览器
    偏移border的距离，当前IE(当前最高是IE11)都不支持;
    属性值可为正负值，负值表示轮郭线向内偏移，绘制在边框内部.
+
+4、transition与animation   IE9及以下不兼容
+   transition 只能指定属性的开始值和结束值，以平滑过渡的方式来实现动画效果，不能实现复杂的动画效果
+   animation  通过设置关键帧来实现复杂的动画效果，其实现原理上可简单理解为由多个transition构成的动画，transition可简单理解为animation的一帧动画
    
 
 
