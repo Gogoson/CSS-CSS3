@@ -6,20 +6,32 @@
    opacity属性只能指定整个元素的透明度.
 
 3、outline与outline-offset
-   outline   css2
-   轮廓线不会占据空间，也不一定是矩形.
+   outline     css2  轮廓线不会占据空间，也不一定是矩形.   
    outline是简写属性，分开写则是以下三个属性，顺序可以调换：
       outline-color    默认黑色
       outline-style    若省略，浏览器不绘制
       outline-width    属性值可为：npx thin medium thick 默认是medium 
 
-   outline-offset    css3   非IE的主流浏览器
+   outline-offset       css3   非IE的主流浏览器
    偏移border的距离，当前IE(当前最高是IE11)都不支持;
    属性值可为正负值，负值表示轮郭线向内偏移，绘制在边框内部.
 
-4、transition与animation   css3  IE9及以下不兼容
-   transition 只能指定属性的开始值和结束值，以平滑过渡的方式来实现动画效果，不能实现复杂的动画效果
-   animation  通过设置关键帧来实现复杂的动画效果，其实现原理上可简单理解为由多个transition构成的动画，transition可简单理解为animation的一帧动画
+4、transition与animation       css3  IE9及以下不兼容
+   transition  
+      transition-property  必须
+      transition-duration  必须
+      transition-timing-function
+      transition-delay
+   只能指定属性的开始值和结束值，以平滑过渡的方式来实现动画效果，不能实现复杂的动画效果
+
+   animation  
+     animation-name       必须
+     animation-duration   必须
+     animation-timing-function
+     animation-delay
+     animation-iteration-count
+     animation-direction
+   通过设置关键帧来实现复杂的动画效果，其实现原理上可简单理解为由多个transition构成的动画，transition可简单理解为animation的一帧动画
    
 
 
