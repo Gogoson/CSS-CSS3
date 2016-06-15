@@ -32,6 +32,9 @@
      animation-iteration-count
      animation-direction
    通过设置关键帧来实现复杂的动画效果，其实现原理上可简单理解为由多个transition构成的动画，transition可简单理解为animation的一帧动画
+
+5、px、em、rem
+   都是相对单位   
    
 
 
