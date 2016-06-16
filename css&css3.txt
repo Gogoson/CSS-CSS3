@@ -50,7 +50,6 @@
        html {
           font-size: 62.5%; /* 62.5% of 1em (16px) = 10px = 1rem*/
        }
-
        body {          
           font-size: 1.6rem; /* Font-sizing with rem unit */
        }
