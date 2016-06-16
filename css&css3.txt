@@ -33,9 +33,33 @@
      animation-direction
    通过设置关键帧来实现复杂的动画效果，其实现原理上可简单理解为由多个transition构成的动画，transition可简单理解为animation的一帧动画
 
-5、px、em、rem
-   都是相对单位   
-   
+5、px、em、rem  都是相对长度单位  
+   px  
+       是相对于显示器屏幕分辨率而言的。(CSS2.0) 
+   em  
+       相对于当前对象内文本的字体尺寸，如当前对行内文本的字体尺寸未被人为设置，则相对于浏览器的默认字体尺寸(16px);
+       其会继承父级元素的字体大小，注意避免1.2*1.2 = 1.44em的情况。
+   rem 
+       是css3新增的相对单位，与em区别在于rem是相对于html根元素，兼容IE9+;
+       关于rem,大多数人都这么用：
+       html {
+          font-size: 62.5%; /* 62.5% of 1em (16px) = 10px = 1rem*/
+       }
+
+       body {          
+          font-size: 1.6rem; /* Font-sizing with rem unit */
+       }
+      IE9+则计算有误差，1rem = 9.93px，并非10px
+      而chrome下，1rem = 12px，因为chrome支持最小的字体为12px，无法设置10px的字体。    
+   解决方法：增大基础值的倍数
+      html {
+          font-size: 625%;
+      }
+      body {
+          font-size: 0.16rem;
+      }
+  
+
 
 
 
