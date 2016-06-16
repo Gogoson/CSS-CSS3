@@ -1,22 +1,26 @@
-﻿1、opacity                    css3，兼容IE9+
-   filter:Alpha(opacity=50)   兼容IE8及以下浏览器，等价于 opacity:0.5 
+﻿1、opacity   filter                    
+   opacity：css3，兼容IE9+
+   filter: Alpha(opacity=50)，兼容IE8及以下浏览器，等价于 opacity:0.5
 
-2、alpha通道和opacity属性的区别
-   alpha通道对元素设定透明度时，可以单独针对元素背景色和文字颜色等来指定透明度,只要设置了颜色的地方都可以使用;
-   opacity属性只能指定整个元素的透明度.
+2、alpha   opacity
+   alpha：alpha通道对元素设定透明度时，可以单独针对元素背景色和文字颜色等来指定透明度,只要设置了颜色的地方都可以使用
+   opacity：opacity属性只能指定整个元素的透明度
 
-3、outline与outline-offset
-   outline     css2  轮廓线不会占据空间，也不一定是矩形.   
-   outline是简写属性，分开写则是以下三个属性，顺序可以调换：
+3、outline   outline-offset
+   outline：
+   css2 ，轮廓线不会占据空间，也不一定是矩形
+   outline是简写属性，分开写则是以下三个属性，顺序可以调换
       outline-color    默认黑色
       outline-style    若省略，浏览器不绘制
       outline-width    属性值可为：npx thin medium thick 默认是medium 
 
-   outline-offset       css3   非IE的主流浏览器
-   偏移border的距离，当前IE(当前最高是IE11)都不支持;
-   属性值可为正负值，负值表示轮郭线向内偏移，绘制在边框内部.
+   outline-offset：
+   css3 , IE不支持
+   偏移border的距离，当前IE(当前最高是IE11)都不支持
+   属性值可为正负值，负值表示轮郭线向内偏移，绘制在边框内部
 
-4、transition与animation       css3  IE9及以下不兼容
+4、transition与animation       
+   css3  IE9及以下不兼容
    transition  
       transition-property  必须
       transition-duration  必须
@@ -33,13 +37,14 @@
      animation-direction
    通过设置关键帧来实现复杂的动画效果，其实现原理上可简单理解为由多个transition构成的动画，transition可简单理解为animation的一帧动画
 
-5、px、em、rem  都是相对长度单位  
-   px  
+5、px、em、rem  
+   都是相对长度单位  
+   px：  
        是相对于显示器屏幕分辨率而言的。(CSS2.0) 
-   em  
+   em： 
        相对于当前对象内文本的字体尺寸，如当前对行内文本的字体尺寸未被人为设置，则相对于浏览器的默认字体尺寸(16px);
        其会继承父级元素的字体大小，注意避免1.2*1.2 = 1.44em的情况。
-   rem 
+   rem：
        是css3新增的相对单位，与em区别在于rem是相对于html根元素，兼容IE9+;
        关于rem,大多数人都这么用：
        html {
@@ -51,7 +56,7 @@
        }
       IE9+则计算有误差，1rem = 9.93px，并非10px
       而chrome下，1rem = 12px，因为chrome支持最小的字体为12px，无法设置10px的字体。    
-   解决方法：增大基础值的倍数
+      解决方法：增大基础值的倍数
       html {
           font-size: 625%;
       }
