@@ -62,7 +62,7 @@
       body {
           font-size: 0.16rem;
       }
-  
+      腾讯ISUX有一篇文章写的不错，url：http://isux.tencent.com/web-app-rem.html
 6、Flex布局(弹性布局)
    IE10及以上才兼容，用在移动端是没有问题的
    参考：http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
