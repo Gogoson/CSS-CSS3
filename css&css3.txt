@@ -100,7 +100,10 @@
    允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。
    默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
 
-
+7、@media screen 与 @media only screen  CSS3
+   他们的区别W3C的说法是：
+   The keyword ‘only’ can also be used to hide style sheets from older user agents. User agents must process media queries starting with ‘only’ as if the ‘only’ keyword was not present.
+   因为没有only这种媒体类型，所以对于古董浏览器来说，这个样式会被忽略掉。
 
 
 
