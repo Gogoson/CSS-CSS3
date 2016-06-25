@@ -135,7 +135,6 @@
         clear: both; 
         visibility: hidden;          
       }
-
       .clearfix {       
         zoom: 1;  /* 触发IE6 IE7 hasLayout */ 
       }
@@ -146,7 +145,6 @@
         display: table;  /* 改成 display: block;也是可以的 */ 
         clear: both;
       }
-
       .clearfix {        
         zoom: 1;  /* 触发IE6 IE7 hasLayout */ 
       }
