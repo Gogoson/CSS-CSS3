@@ -163,6 +163,21 @@
         zoom: 1;  /* 触发IE6 IE7 hasLayout */ 
       }
 
+8、CSS3动画事件
+    animation事件
+    -webkit-animation动画有三个事件：　　　　　　
+　　开始事件 webkitAnimationStart
+　　结束事件  webkitAnimationEnd
+　　重复运动事件 webkitAnimationIteration
+
+    transition事件
+    在动画结束时，也存在结束的事件：webkitTransitionEnd;
+　　但是注意：transition,也仅仅有这一个事件。
+    
+    用法：
+    El.addEventListener("webkitAnimationStart", function(){}, false);
+    $(El).on("webkitAnimationStart", function(){},false);
+
 
 
 
