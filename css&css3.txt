@@ -178,7 +178,4 @@
     El.addEventListener("webkitAnimationStart", function(){}, false);
     $(El).on("webkitAnimationStart", function(){},false);
 
-
-
-
-
+9、background-size、
